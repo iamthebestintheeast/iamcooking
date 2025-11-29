@@ -1,0 +1,94 @@
+Got it — we’ll update your final parts list to include 4 BTS7960 modules for the 4 motors. Here’s the fully updated list:
+
+✅ Final Smart Wheelchair Parts List (Updated for 4 Motors)
+1️⃣ Main Controller & Vision
+
+Raspberry Pi 4 Model B (4 GB RAM)
+
+Pi Camera Module V2 (8 MP)
+
+MicroSD Card 32 GB Class 10
+
+SD Card Reader (USB)
+
+Heatsink + Fan kit for Pi (optional)
+
+2️⃣ Wireless Control Modules
+
+ESP32 Dev Board WROOM‑32 ×2
+
+Wheelchair-side ESP32 powered from Pi 5V
+
+Glove-side ESP32 powered from 5V USB power bank
+
+3️⃣ GPS / Alerts
+
+NEO‑6M GPS Module
+
+DS3231 RTC Module
+
+Active Buzzer 5 V
+
+4️⃣ Audio / Voice Interaction
+
+INMP441 I²S Microphone Module
+
+USB-powered speaker
+
+5️⃣ Motors / Movement / Sensors
+
+BTS7960 Dual H‑Bridge Motor Driver Module ×4 (one per motor)
+
+12 V 300 RPM Geared DC Motors ×4
+
+MPU6050 Gyro + Accelerometer Module
+
+HC‑SR04 Ultrasonic Sensor (optional)
+
+Tactile Push Buttons ×3
+
+1‑Channel 5 V Relay Module (optional)
+
+6️⃣ Power & Wiring – Wheelchair Side
+
+12 V 3S Li‑Ion 18650 Battery Pack with BMS (capacity rated for motor + Pi load)
+
+Buck Converter: 12 V → 5.1 V, ≥5 A output (for Pi + peripherals + wheelchair-side ESP32)
+
+Capacitors (required):
+
+470 µF electrolytic, 10–16 V (low ESR) ×1 set for Pi 5V rail
+
+0.1 µF ceramic, 6.3 V or higher, X7R/X5R ×1 set for Pi 5V rail
+(Optional: a second set near wheelchair-side ESP32 if wires are long or unstable)
+
+XT60 Connectors (male + female)
+
+Silicone Wires 14–16 AWG (1 m pair)
+
+Inline Fuse (rated for motor current)
+
+KCD4 Rocker Switch (main power ON/OFF)
+
+Terminal Blocks ×4–6
+
+7️⃣ Power & Wiring – Glove Side
+
+5 V USB Power Bank, 5000 mAh, ≥2 A output
+
+USB Cable to ESP32
+(No capacitors needed)
+
+8️⃣ Misc / Accessories
+
+Jumper Wires (Dupont)
+
+Heat-Shrink Tubing
+
+Velcro / Double-Sided Tape
+
+Plastic Project Boxes / Enclosures
+
+Digital Multimeter (DT830D or UNI-T UT33C+)
+
+Extra wires, zip-ties, cable management
